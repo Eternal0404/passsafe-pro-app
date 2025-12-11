@@ -3,9 +3,10 @@ import os
 import uuid
 import datetime
 import bcrypt
+import sys
 from .encryption import derive_key, encrypt_data, decrypt_data
 
-DATA_DIR = 'data'
+DATA_DIR = os.path.join(sys._MEIPASS, 'data') if hasattr(sys, '_MEIPASS') else 'data'
 VAULT_FILE = os.path.join(DATA_DIR, 'vault.json')
 NOTES_FILE = os.path.join(DATA_DIR, 'notes.json')
 SETTINGS_FILE = os.path.join(DATA_DIR, 'settings.json')

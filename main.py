@@ -1,7 +1,4 @@
 import sys
-import os
-if hasattr(sys, '_MEIPASS'):
-    os.chdir(sys._MEIPASS)
 from PyQt5.QtWidgets import QApplication, QInputDialog, QMessageBox, QLineEdit
 from core.data_manager import verify_master_password, set_master_password, get_encryption_key, load_settings
 from gui.main_window import MainWindow
