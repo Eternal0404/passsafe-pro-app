@@ -1,5 +1,5 @@
-from PyQt6.QtWidgets import QMainWindow, QVBoxLayout, QHBoxLayout, QListWidget, QWidget, QStackedWidget
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QMainWindow, QVBoxLayout, QHBoxLayout, QListWidget, QWidget, QStackedWidget
+from PyQt5.QtCore import Qt
 from .vault_view import VaultView
 from .notes_view import NotesView
 from .generator_view import GeneratorView

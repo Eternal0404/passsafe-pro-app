@@ -1,5 +1,5 @@
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QScrollArea, QPushButton, QLineEdit, QHBoxLayout, QLabel, QFrame, QDialog, QFormLayout, QTextEdit, QDialogButtonBox
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QScrollArea, QPushButton, QLineEdit, QHBoxLayout, QLabel, QFrame, QDialog, QFormLayout, QTextEdit, QDialogButtonBox
+from PyQt5.QtCore import Qt
 from core.data_manager import load_notes, add_note, update_note, delete_note, search_notes
 
 class NotesView(QWidget):

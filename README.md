@@ -1,13 +1,13 @@
 # PassSafe Pro App
 
-A fully offline, open-source password manager for Windows, built with Python, PyQt6, and AES-256 encryption.
+A fully offline, open-source password manager for Windows, built with Python, PyQt5, and AES-256 encryption.
 
 ## Features
 
 - **Secure Password Vault**: Store, edit, delete, and search passwords with AES-256 encryption.
 - **Secure Notes**: Encrypted notes linked to accounts.
 - **Password Generator**: Customizable generator with strength checker and suggestions.
-- **Modern GUI**: PyQt6-based interface with sidebar navigation, card layouts, animations, and themes (light, dark, neon).
+- **Modern GUI**: PyQt5-based interface with sidebar navigation, card layouts, animations, and themes (light, dark, neon).
 - **Clipboard Management**: Copy passwords with automatic 10-second clear.
 - **Backup & Restore**: Export/import encrypted data.
 - **Search**: Across passwords and notes by account/website/tags.

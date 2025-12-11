@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QSpinBox, QCheckBox, QPushButton, QLabel, QHBoxLayout
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QSpinBox, QCheckBox, QPushButton, QLabel, QHBoxLayout
 from core.password_generator import generate_password, suggest_stronger
 from core.strength_checker import check_strength
 from core.clipboard_manager import copy_to_clipboard

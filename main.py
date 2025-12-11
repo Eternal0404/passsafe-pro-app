@@ -1,5 +1,5 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QInputDialog, QMessageBox, QLineEdit
+from PyQt5.QtWidgets import QApplication, QInputDialog, QMessageBox, QLineEdit
 from core.data_manager import verify_master_password, set_master_password, get_encryption_key, load_settings
 from gui.main_window import MainWindow
 from gui.themes import get_theme_css

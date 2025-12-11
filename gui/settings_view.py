@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QComboBox, QSpinBox, QPushButton, QLabel
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QComboBox, QSpinBox, QPushButton, QLabel
 from core.data_manager import get_theme, set_theme, get_auto_lock, set_auto_lock
 
 class SettingsView(QWidget):
